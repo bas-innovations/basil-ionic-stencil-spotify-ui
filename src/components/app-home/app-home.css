@@ -1,0 +1,31 @@
+ion-content {
+    --padding-top: 40px;
+}
+
+.section-header {
+    color: #fff;
+    font-family: "Spotify";
+    font-weight: "bold";
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.ion-slides {
+    margin-bottom: 20px;
+}
+
+ion-slide {
+    display: block;
+    text-align: left;
+}
+
+.album-slides {
+    align-items: start !important;
+}
+
+.album-title {
+    color: #fff;
+    font-family: "Spotify";
+    font-size: small;
+    float: left;
+}

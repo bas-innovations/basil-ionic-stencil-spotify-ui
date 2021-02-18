@@ -1,0 +1,61 @@
+:root {
+    --img-opacity: 1;
+    --img-padding: 15%;
+}
+
+ion-item {
+    --ion-item-background: transparent;
+    color: #fff;
+    font-family: "Spotify";
+    p {
+        color: #949494;
+    }
+}
+
+.track-list {
+    // background: var(--ion-color-dark) !important;
+    background: transparent !important;
+}
+
+ion-title,
+ion-content {
+    font-family: 'Spotify';
+}
+
+.album-info {
+    color: #fff;
+    margin-left: 11px;
+    p {
+        font-weight: bold;
+    }
+}
+
+.image-box {
+    top: 55px;
+    position: fixed;
+    z-index: 0;
+    padding-left: var(--img-padding);
+    padding-right: var(--img-padding);
+    padding-top: 5%;
+    max-height: 40vh;
+}
+
+.image-img {
+    width: 100%;
+    max-height: 39vh;
+    object-fit: contain;
+    opacity: var(--img-opacity, 1) !important;
+}
+
+ion-row {
+    padding-top: 40vh;
+}
+
+ion-content {
+    background: linear-gradient(var(--custombg) 400px, var(--ion-color-dark) 400px);
+}
+
+.main {
+    z-index: 2;
+    background: linear-gradient(var(--custombg) 20%, var(--ion-color-dark) 30%);
+}
